@@ -11,23 +11,23 @@ Space Complexity | O(1)
 Binary Search is a divide-and-conquer algorithm that is very simple to understand.
 You probably use this all the time without even realising it!
 
-When you look through a dictionary, you don't start at the front and go through every page until you find the word you are looking for.
-Instead, you might open the dictionary to roughly the middle and see something like "Orange". 
-If the word you were looking for was later in the alphabet, you'd go to the second half of the dictionary and if it was earlier you'd look at the first half.
-This is a rudimentary binary search that you probably already knew! 
+When you look through a dictionary, you don't start at the front and go through every page until you find the word you are looking for. Instead, you might open the dictionary to roughly the middle and see something like "Orange". 
+If the word you were looking for was later in the alphabet, you'd go to the second half of the dictionary and if it was earlier you'd look at the first half. This is a rudimentary binary search that you probably already knew! 
 
-# Resources 
+## Resources
+
 * [CS50 - Binary Search](https://www.youtube.com/watch?v=D5SrAga1pno)
 * [Abdul Bari - Iterative](https://www.youtube.com/watch?v=C2apEw9pgtw)
 * [Abdul Bari - Recursive](https://www.youtube.com/watch?v=uEUXGcc2VXM)
 * [Teaching Tree](http://teachingtree.co/watch/binary-search)
 
-# Questions
+## Questions
+
 * [Leetcode - Search Insert Position](https://leetcode.com/problems/search-insert-position/)
 * [GeeksForGeeks - Binary Search](https://practice.geeksforgeeks.org/problems/binary-search/)
 * [Leetcode - Binary Search Tag](https://leetcode.com/tag/binary-search/)
 
-# Implementation
+## Python Implementation
 
 ```python
 exampleArray = [1,2,3,4,4,5,6,8,9,9,10]

@@ -20,15 +20,19 @@ Their disadvantages are
 * It is much more difficult to traverse them backwards (bringing to life the doubly-linked list)
 * A vector can be much better in many scenarios (see: [this video from Bjarne Stroustrop](https://www.youtube.com/watch?v=YQs6IC-vgmo))
 
-# Resources
+## Resources
+
 * [Numberphile - Linked Lists](https://www.youtube.com/watch?v=_jQhALI4ujg)
 * [Coursera - Singly Linked Lists](https://www.coursera.org/lecture/data-structures/singly-linked-lists-kHhgK)
 
-# Questions
+## Questions
+
 * [Leetcode - Linked Lists tag](https://leetcode.com/tag/linked-list/)
 
-# Implementation 
-## Basic Version
+## Implementation
+
+### Basic Version
+
 ```python
 class Node:
     def __init__(self, value, pointer=None):
@@ -60,7 +64,8 @@ while val is not None:
     val = val.pointer
 ```
 
-## With some amenities 
+### With some amenities
+
 ```python
 class Node:
     def __init__(self, value, pointer=None):
